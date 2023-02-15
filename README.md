@@ -49,11 +49,11 @@ By utilizing both datasets we were able to accomplish our clients wishes of filt
 
 ## Data Preparation:
  
-![image-2.png](attachment:image-2.png)
+![image](https://user-images.githubusercontent.com/100429663/219098538-a8d0c983-6c44-4437-b819-5dd9557f721d.png)
 
 The time series chart above shows all filtered zipcodes that met the criteria laid out by the client. The red dashed line shows our client budget of $500K. You can clearly see the housing markert bubble of 2008, for this anlysis we decided to use home values from 2010 to 2018 to avoid that time period skewing our data.
 
-![image.png](attachment:image.png) 
+![image](https://user-images.githubusercontent.com/100429663/219098599-482e62ab-f149-4bd8-9693-397048bd347b.png)
 
 As you can see, real estate values were much more stable after 2010. With a consistant slight upward trend. Analysis the time period above provided a much more stable time series to forecast future home value.
 
@@ -63,7 +63,7 @@ Once we had completed our data filtering and preprocessing steps, we trained a S
 
 The following images are the model diagnostics printed after fitting the data series for zip code 59718. Ideally we want to make sure that our residuals are not correlated and have a normal distribution. Using the diagnostics below you can get an idea of whether or not the model is accurately capturing the time series or not.
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/100429663/219098698-e5d4ce5c-e65d-4778-9ce3-0bb2092a428b.png)
 
 **Top left:** This plot should show white noise, meaning our residual errors fluctuate around the mean of zero with uniform variance. The mean of our residuals does appear to be zero there is close to uniform variance. Which is great.
 
@@ -77,17 +77,17 @@ These observations lead us to conclude that our model provides a satisfactory fi
 
 Once our model is fit to our training data we can use it to forecast values from 2016-2018 (our test data). We can see how accurate our model is at forecasting future values by analyzing how close of a fit it had the actual values during that time.
 
-![image-4.png](attachment:image-4.png)
+![image](https://user-images.githubusercontent.com/100429663/219098800-af707057-39df-4d9b-a56e-a5461b53ba8f.png)
 If we feel our model is satisfactory in forecasting our test data we then use it to predict future values. In the case of this project, we forecasted the monthly average home value of each zip code 3 years into the future (2021).
 
-![image-5.png](attachment:image-5.png)
+![image](https://user-images.githubusercontent.com/100429663/219098864-91da3361-142c-4c03-9399-1e1363395536.png)
 Once our model has successfully generated future value predictions, we can calculate a potential 3 year ROI on real estate purchased in April 2018.
 
 ## Recommendations and Conclusions
 
 Our time series analysis produced the following 5 zip codes that we recommend to the client for investment opportunities. Our model predicted zipcode 84102, located in Salt Lake City and near Alta Ski Resort, as the most fruitful investment. The projected 3-year return on investment for all zipcodes in our top 5 is greater than 20 percent and most (except zipcode 97701) are well above the median 3-year ROI of all other zipcodes we performed modeling on. 
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/100429663/219098997-8bcc3315-56c7-4f57-b218-a935aecbf77c.png)
 
 Here is a ranking of each zipcode based on highest three year return on investment projections and their associated ski resort metrics of interest.
 
