@@ -78,6 +78,7 @@ These observations lead us to conclude that our model provides a satisfactory fi
 Once our model is fit to our training data we can use it to forecast values from 2016-2018 (our test data). We can see how accurate our model is at forecasting future values by analyzing how close of a fit it had the actual values during that time.
 
 ![image](https://user-images.githubusercontent.com/100429663/219098800-af707057-39df-4d9b-a56e-a5461b53ba8f.png)
+
 If we feel our model is satisfactory in forecasting our test data we then use it to predict future values. In the case of this project, we forecasted the monthly average home value of each zip code 3 years into the future (2021).
 
 ![image](https://user-images.githubusercontent.com/100429663/219098864-91da3361-142c-4c03-9399-1e1363395536.png)
