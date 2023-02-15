@@ -1,4 +1,4 @@
-![image-2.png](attachment:image-2.png)
+![image](https://user-images.githubusercontent.com/100429663/219097998-77220f55-1a11-4e27-bd62-f53582273828.png)
 
 # Zillow Time Series Modeling: Forecasting Real Estate Prices of US Ski Resort Towns
 
