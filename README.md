@@ -81,6 +81,7 @@ Once our model is fit to our training data we can use it to forecast values from
 If we feel our model is satisfactory in forecasting our test data we then use it to predict future values. In the case of this project, we forecasted the monthly average home value of each zip code 3 years into the future (2021).
 
 ![image](https://user-images.githubusercontent.com/100429663/219098864-91da3361-142c-4c03-9399-1e1363395536.png)
+
 Once our model has successfully generated future value predictions, we can calculate a potential 3 year ROI on real estate purchased in April 2018.
 
 ## Recommendations and Conclusions
